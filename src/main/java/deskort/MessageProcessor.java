@@ -86,13 +86,12 @@ public class MessageProcessor extends Commands{
             }
 
             //System.out.println("=|" + commandName+ "|=");
-            if(Commands.COMMANDS_TO_FUNCTIONS.containsKey(commandName)){
-                RequestFunction funcToExecute = Commands.COMMANDS_TO_FUNCTIONS.get(commandName);
+            if(COMMANDS_TO_FUNCTIONS.containsKey(commandName)){
+                RequestFunction funcToExecute = COMMANDS_TO_FUNCTIONS.get(commandName);
                 if(!isBot || funcToExecute.isTriggerableByBot()){
                     funcToExecute.run();
                 }
             }
-
         }
         else if(messageText.startsWith("$") && !messageText.startsWith("$$")){
             try{
