@@ -238,9 +238,17 @@ public class MessageProcessor extends Commands{
                 return;
             }
         }
+        actions.sendEmbed(messageReceived.getTextChannel(), createPlayingEmbed(audioPlayer));
         audioPlayer.setPlaying(true);
-
     }
+
+    private static MessageEmbed createPlayingEmbed(AudioPlayer audioPlayer){
+        EmbedBuilder embedBuilder = new EmbedBuilder();
+        embedBuilder.setTitle("Now playing");
+        embedBuilder.setDescription(audioPlayer.getCurrentAudioTrack().getTrackName());
+        return embedBuilder.build();
+    }
+
     protected static void youtubeRequest(){
         AudioManager audioManager = messageReceived.getGuild().getAudioManager();
         addSendingHandlerIfNull(audioManager);

@@ -1,0 +1,13 @@
+{
+  "token":"ZSKf29Rt54u4ZA9E10UhNy2f.YJ3xcL.k5zUlX5546_U8syL0nxWL1UofGl",
+  "prefix":"-",
+  "bot_id":923294593108279386,
+  "purge_cap": 1000,
+  "message_cap_per_channel": 1500,
+  "sudo_users":[
+    790507097615237120,
+    278778540554715137,
+    489788192145539072,
+    356165467486027788],
+  "audio_dir":"/home/user/audio"
+}
