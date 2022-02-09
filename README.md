@@ -1,8 +1,8 @@
-#Discord Bot
+# Discord Bot
 
-####***Bot plays local audio files, purges messages, downloads youtube videos/audio*** <br>
+#### ***Bot plays local audio files, purges messages, downloads youtube videos/audio*** <br>
 
-####Dependencies used:
+#### Dependencies used:
 
     - tritonus libs (sample rate conversion), although not used directly in code
     - jda (java discord api) from dv8fromtheworld along with sl4j-api

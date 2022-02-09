@@ -21,9 +21,6 @@ public class AudioPlayer implements AudioSendHandler{
     final static int NUM_OF_SONGS = 30;
     static HashMap<String,AudioTrack> fileNamesToSongs = new HashMap<>(NUM_OF_SONGS);
 
-    //fileName to filePath
-    //without extension
-
     private AudioTrack audioTrack;
     private ByteBuffer audioBuffer;
 
