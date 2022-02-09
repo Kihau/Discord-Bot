@@ -5,8 +5,8 @@ import java.util.HashMap;
 public abstract class Commands{
     final static HashMap<String, RequestFunction> COMMANDS_TO_FUNCTIONS = new HashMap<String, RequestFunction>() {{
 
-        put("logs",     new RequestFunction(MessageProcessor::logsRequest,true));
-        put("shutdown", new RequestFunction(MessageProcessor::shutdownRequest,true));
+        put("logs",     new RequestFunction(MessageProcessor::logsRequest,      true));
+        put("shutdown", new RequestFunction(MessageProcessor::shutdownRequest,  true));
 
         put("join",     new RequestFunction(MessageProcessor::joinRequest,      false));
         put("warp",     new RequestFunction(MessageProcessor::warpRequest,      false));
@@ -22,7 +22,7 @@ public abstract class Commands{
         put("uptime",   new RequestFunction(MessageProcessor::uptimeRequest,    false));
         put("help",     new RequestFunction(MessageProcessor::helpRequest,      false));
         put("sig",      new RequestFunction(MessageProcessor::signatureCheck,   true));
-        put("mem",      new RequestFunction(MessageProcessor::memoryRequest,   true));
+        put("mem",      new RequestFunction(MessageProcessor::memoryRequest,    true));
 
         put("hash",     new RequestFunction(MessageProcessor::stringHashRequest,false));
         put("sha256",   new RequestFunction(MessageProcessor::stringHashRequest,false));
