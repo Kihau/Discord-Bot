@@ -19,6 +19,7 @@ public class AudioTrack{
     private double fragmentsOf20Ms;
 
     private final String PATH;
+    private final String NAME;
     private AudioInputStream audioStream;
     private volatile AudioFormat audioInfo;
     private boolean isBigEndian;
@@ -27,7 +28,7 @@ public class AudioTrack{
 
     protected AudioTrack(String path){
         this.PATH = path;
-
+        this.NAME = Paths.get(PATH).getFileName().toString();
         try{
             songBytes = Files.readAllBytes(Paths.get(path));
             boolean wasConvertedFromMp3 = false;
@@ -161,6 +162,9 @@ public class AudioTrack{
     }
     protected int getBaseLength(){
         return length;
+    }
+    public String getTrackName(){
+        return NAME;
     }
     protected double fragmentsOf20Ms(){
         return fragmentsOf20Ms;
