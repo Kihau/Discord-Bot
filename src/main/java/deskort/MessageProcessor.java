@@ -23,8 +23,8 @@ public class MessageProcessor extends Commands{
 
     static private final HashMap<Long, MessageDeque> channelIdsToMessageDeques = new HashMap<>();
     public static String PREFIX = ">";
-    public static int PREFIX_OFFSET = 1;
     public static int PURGE_CAP = 1000;
+    public static int PREFIX_OFFSET = 1;
     final static Set<Long> AUTHORIZED_USERS = new HashSet<>();
 
     private static JDA jdaInterface;
