@@ -1,5 +1,5 @@
 {
-  "token":"ZSKf29Rt54u4ZA9E10UhNy2f.YJ3xcL.k5zUlX5546_U8syL0nxWL1UofGl",
+  "token":"NzczNjgyMjE4NTM4MTA2OTAz.X6Mxtw.xvmexfssn2qGaJSe8_b8DiYP4rA",
   "prefix":"-",
   "bot_id":923294593108279386,
   "purge_cap": 1000,
@@ -9,5 +9,5 @@
     278778540554715137,
     489788192145539072,
     356165467486027788],
-  "audio_dir":"/home/user/audio"
+  "audio_dir":"home/user/audio"
 }
