@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="tritonus_sample_rate_converter-0.3.6">
-    <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/lib/tritonus_sample_rate_converter-0.3.6.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
