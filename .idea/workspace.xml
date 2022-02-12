@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Shetkort" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86e1c208-8976-4b18-8b4b-4556f94f3105" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/deskort/MessageDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deskort/MessageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deskort/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/deskort/MessageStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Servers.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_144/src.zip!/javax/sound/sampled/Clip.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/net/dv8tion/JDA/5.0.0-alpha.2/JDA-5.0.0-alpha.2-sources.jar!/net/dv8tion/jda/api/audio/factory/DefaultSendSystem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_144/src.zip!/java/nio/Buffer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_144/src.zip!/java/nio/HeapByteBuffer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/net/dv8tion/JDA/5.0.0-alpha.2/JDA-5.0.0-alpha.2-sources.jar!/net/dv8tion/jda/internal/audio/AudioConnection.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="22eU7vZE05pzuwXueMnCip7Fx92" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.18111111" />
+    <property name="project.structure.side.proportion" value="0.13203463" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc\out\artifacts\Shetkort" />
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc\out\artifacts\Shitcord" />
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc\out\artifacts\Shetcord" />
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc\out\artifacts\Shitcort" />
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc" />
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc\out\artifacts\ShitcordDirectory" />
+      <recent name="C:\Program Files (x86)\IntelliJ\workspace\JDA-disc\out\artifacts\BotShitcord_jar" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BotRunner">
+    <configuration name="BotRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BotRunner" />
+      <module name="JDA-disc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimalisticClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bot.requester.MinimalisticClass" />
+      <module name="JDA-disc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bot.requester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDA-disc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TokenTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TokenTester.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDA-disc" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TokenTester" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_53.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BotRunner" />
+      <item itemvalue="Application.MinimalisticClass" />
+      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="JUnit.TokenTester.test1" />
+      <item itemvalue="JUnit.TokenTester" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BotRunner" />
+        <item itemvalue="Application.MinimalisticClass" />
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="JUnit.TokenTester" />
+        <item itemvalue="JUnit.TokenTester.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86e1c208-8976-4b18-8b4b-4556f94f3105" name="Default Changelist" comment="" />
+      <created>1640197383734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640197383734</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/dotfiles" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Hasher.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Hasher.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Hasher.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/target/classes/downloads/RunnerClass.class</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/PlayerFrame.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/PlayerFrame.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/PlayerFrame.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>298</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CompareBytesTest.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CompareBytesTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CompareBytesTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_46.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_46.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_46.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_46.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/com/sun/media/sound/AudioFloatFormatConverter.class</url>
+          <line>52</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/com/sun/media/sound/AudioFloatFormatConverter.class</url>
+          <line>55</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/com/sun/media/sound/AudioFloatFormatConverter.class</url>
+          <line>59</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>391</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>392</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>393</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>395</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>396</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>404</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/Converter.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SampleRateTest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SampleRateTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SampleRateTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="482" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>124</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>125</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>127</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>126</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>128</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>129</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>130</line>
+          <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>131</line>
+          <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>133</line>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>134</line>
+          <option name="timeStamp" value="507" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>136</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>135</line>
+          <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>139</line>
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>140</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>138</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeRequestParser.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="535" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeRequestParser.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="536" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeRequestParser.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="537" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeVideoInfo.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeVideoInfo.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="566" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeVideoInfo.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeVideoInfo.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeVideoInfo.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="615" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="616" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="617" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="619" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="620" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/FileSeeker.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="621" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="631" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/TimeTester.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="652" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/TimeTester.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="654" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/TimeTester.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="656" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/TimeTester.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="657" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/TimeTester.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="658" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="663" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="665" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="666" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="667" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="668" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="670" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="671" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="672" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="673" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="674" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="675" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="676" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/PseudoBotTokenGenerator.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="679" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/PseudoBotTokenGenerator.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="680" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/PseudoBotTokenGenerator.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="682" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/utilities/PseudoBotTokenGenerator.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="683" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/requester/MinimalisticClass.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="685" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/YoutubeDownloader.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="687" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="688" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="689" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="691" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="692" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="693" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="694" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="695" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="696" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>114</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="697" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="698" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>142</line>
+          <option name="timeStamp" value="699" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="700" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="701" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="702" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="703" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="704" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="705" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="706" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="707" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="708" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="709" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="710" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="711" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="712" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>178</line>
+          <option name="timeStamp" value="713" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="714" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="715" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="717" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="718" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="719" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="720" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="721" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="723" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="724" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="725" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="727" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>229</line>
+          <option name="timeStamp" value="728" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>230</line>
+          <option name="timeStamp" value="729" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="730" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="731" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="732" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="733" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="734" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="735" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="736" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/requester/MinimalisticClass.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="737" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/requester/MinimalisticClass.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="738" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/requester/MinimalisticClass.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="739" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="742" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="748" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="753" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="755" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="756" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="757" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="758" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="759" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="766" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="767" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="772" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/parser/ParserImpl.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="773" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="778" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="779" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="780" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="783" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="791" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="792" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="794" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="795" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="796" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="797" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="798" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="799" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="800" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="801" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="805" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="818" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="819" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="820" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/deskort/MessageProcessor.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="821" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/net/dv8tion/JDA/5.0.0-alpha.2/JDA-5.0.0-alpha.2.jar!/net/dv8tion/jda/api/utils/cache/CacheView.class</url>
+          <line>104</line>
+          <properties class="net.dv8tion.jda.api.utils.cache.CacheView" method="getElementsByName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Player.java</url>
+          <line>5</line>
+          <properties class="audio.Player" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>114</line>
+          <properties method="stateChanged">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/audio/Controller.java</url>
+          <line>65</line>
+          <properties method="actionPerformed">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/AudioFileTest.java</url>
+          <line>17</line>
+          <properties class="AudioFileTest" method="testCasedBig">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>62</line>
+          <properties class="time.Time" method="toString">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_45.java</url>
+          <line>8</line>
+          <properties class="Scratch" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/SampleRateTest.java</url>
+          <line>140</line>
+          <properties class="SampleRateTest" method="unsupported">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/SoundUtils.java</url>
+          <line>106</line>
+          <properties class="SoundUtils">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/SampleRateTest.java</url>
+          <line>33</line>
+          <properties class="SampleRateTest" method="test2">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioTrack.java</url>
+          <line>173</line>
+          <properties class="music.AudioTrack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/fr/delthas/javamp3/1.0.1/javamp3-1.0.1.jar!/fr/delthas/javamp3/Sound.class</url>
+          <line>123</line>
+          <properties class="fr.delthas.javamp3.Sound" method="decodeFullyInto">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Tester2.java</url>
+          <line>9</line>
+          <properties class="Tester2">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="515" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/Bit24Test.java</url>
+          <line>20</line>
+          <properties class="Bit24Test" method="target48Hz">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="516" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_44.java</url>
+          <line>3</line>
+          <properties class="Scratch" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeVideoInfo.java</url>
+          <line>180</line>
+          <properties class="bot.music.youtube.YoutubeVideoInfo" method="bitrateToSizeAsStr">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/youtube/YoutubeVideoInfo.java</url>
+          <line>194</line>
+          <properties class="bot.music.youtube.YoutubeVideoInfo" method="videoFormats">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_48.java</url>
+          <line>1</line>
+          <properties class="Scratch" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="622" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_49.java</url>
+          <line>5</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="623" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/DaysOfMonthsTest.java</url>
+          <line>5</line>
+          <properties class="time.DaysOfMonthsTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="648" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/TimeTester.java</url>
+          <line>3</line>
+          <properties class="time.TimeTester" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="651" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>132</line>
+          <properties class="time.Time" method="relapseDay">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="669" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../TimeAndAudio/src/main/java/time/Time.java</url>
+          <line>112</line>
+          <properties class="time.Time" method="advanceMonth">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="677" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/youtube_lib/downloader/downloader/DownloaderImpl.java</url>
+          <line>27</line>
+          <properties class="youtube_lib.downloader.downloader.DownloaderImpl" method="downloadWebpage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="777" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bot/music/AudioPlayer.java</url>
+          <line>160</line>
+          <properties class="music.AudioPlayer">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="816" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="817" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="indexLen" />
+        <watch expression="rawAudio[i]" language="JAVA" />
+        <watch expression="rawAudio[i+1]" language="JAVA" />
+        <watch expression="i" language="JAVA" />
+        <watch expression="bufferIndex" language="JAVA" />
+        <watch expression="buffer[bufferIndex]" language="JAVA" />
+        <watch expression="buffer[bufferIndex+1]" language="JAVA" />
+        <watch expression="midValue" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="messagesQueue.get(i).getMessage()" />
+        <watch expression="clip.getFrameLength()" language="JAVA" />
+        <watch expression="rawAudio.position()" />
+        <watch expression="rawAudio.limit()" />
+        <watch expression="convertedAudioStream" />
+        <watch expression="lengthSeconds" />
+        <watch expression="audioInfo.isBigEndian(" />
+        <watch expression="isRawAudio" />
+        <watch expression="songBytes" language="JAVA" />
+        <watch expression="songBytes.length" language="JAVA" />
+        <watch expression="character" />
+        <watch expression="request.charAt(i)" />
+        <watch expression="request.charAt(indexId)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JDA_disc$BotRunner.ic" NAME="BotRunner Coverage Results" MODIFIED="1644549880566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
